@@ -1,0 +1,83 @@
+<!-- Tell us your skiing ability! -->
+<!DOCTYPE html>
+<html lang="en">
+		<meta charset="UTF-8">
+	<head>
+		<!-- Add Links to other pages! -->
+		<div class="mynav">
+			<h2> Navigation </h2>
+				<div class="home"><a href="../index.html"> Home Page </a> </div>
+				<div class="booking"> <a href="list.html"> Activities </a> </div>
+				<div class="info"> <a href="link.html"> More Information on Backcountry Skiing </a></div>
+		</div>
+		<hr>
+		<title>
+		Tell us your skiing ability
+		</title>
+		<link href="../css/mycss.css" type="text/css" rel="stylesheet">
+			</head>
+	<body>
+	<h1>
+	Book A Trip
+	</h1>
+<hr>
+<fieldset id="booktrip">
+<legend class="skiing">  Tell us Your Skiing Ability </legend>
+<ol>
+	<li>	
+		<form action="action.html" method="get" id="fullname">
+			<p> Name:
+				<input type="text" name="name" maxlength="26">
+			</p>
+		</form>
+	<form action="action.html" method="get">
+	<p> Age:   
+			<input type="text" name="age" maxlength="26">
+	</p>
+	</form>
+	<p> Height:
+		<input type="text" name="height" maxlength="26">
+	</p>
+	<p> Weight:
+		<input type="text" name="weight" maxlength="26">
+	</p>
+</li>
+<li>
+	<p> What level skier are you? </p>
+<br>
+	<form class="level">
+		<input type="radio" id="Beginner" name="level">
+		<label for="Beginner"> 1 (Beginner)</label><br>
+		<input type="radio" id="Intermediate" name="level">
+		<label for="Intermediate"> 2 (Intermediate) </label> <br>
+		<input type="radio" id="Advanced" name="level">
+		<label for="Advanced"> 3 (Advanced) </label><br>
+	</form>
+</li>
+<li>
+	<p>How many Years have you Skied?</p>
+			<select name="years">
+				<option value="LessThanaYear"> Less Than a Year</option>
+				<option value="2Years"> 2 Years</option>
+				<option value="3-4Years"> 3-4 Years</option>
+				<option value="5-6Years"> 5-7 Years</option>
+				<option value="7-9Years"> 7-9 Years</option>
+				<option value="10ormoreyears"> 10 or more years</option>
+			</select>
+</li>
+<li>	
+		<p>Have you done any backcountry skiing before? Is so, please share some of your trips.</p>
+			<label for="experience"> 
+				<textarea id="experience" name="background" rows="10" cols="50">
+				</textarea>
+			</label>
+		</li>
+		<li>
+			<form action="../trey_barrett.php" id="submit">
+				<input type="submit" value="submit">
+			</form>
+		</li>
+	</ol>
+</fieldset>
+</body>
+</html>

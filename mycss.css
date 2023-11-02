@@ -1,0 +1,157 @@
+.random-paragraph {
+    color: green;
+    background-color: black;
+    border: 2px solid green;
+}
+
+@media (max-width: 800px) {
+    .random-paragraph {
+        color: green;
+        background-color: black;
+        border: 2px solid green;
+    }
+}
+
+@media (min-width: 801px) {
+    .random-paragraph {
+        color: purple;
+        background-color: pink;
+        border: 2px solid purple;
+    }
+}
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex: 2 4 calc(50% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    border: 20px solid red; 
+    }
+
+h2{ 
+	 display: grid;
+	 grid-template-columns: repeat(3, 1fr);
+	 gap: 10px;
+	 grid-auto-rows:  (100px, auto) ;
+	 color: white;
+	 background-color: black;
+	 border: 30px solid red;
+	 border-radius: 5px;
+	 padding: 10px 10px 10px 50px}
+	 
+#important1{ 
+		margin: 200px 0px 0px 0px; 	 
+}
+
+#important1{
+					display: grid;
+	 				grid-template-columns: repeat(3, 1fr);
+	 				gap: 10px;
+				 	grid-auto-rows:  (100px, auto) ;
+				 	background color: black;
+				 	border: 30px;
+	}
+		 
+	.skiinglevel{
+		 					color: #0d8ef2;}
+		 					
+	#mount{
+						color: white;
+						background-color: #0d8ef2;}
+														            
+	.mynav{
+				 display: flex;
+				 position: fixed;
+				 top: 0px;
+				 width: 100%;
+				 color: white;
+				 height:3;
+				 width:2;
+				 background-color: #d3412c;
+				 border: 1px solid white;
+				 border-radius: 5px;
+				 padding: 5px;
+				 margin:10px;
+				 }
+				 
+	.trips{
+			 flex: 1;
+		}
+	.booking{
+				flex: 1;
+	}
+	
+	.info{
+			flex: 1;
+			}
+			
+	.home{
+				flex: 1;
+	}
+				 
+	#aboutus{color: white;
+					height 300px;
+					background-color:#0d8ef2;
+	}
+	
+	#submit:hover{
+				 color:blue;
+				 border:none;}
+					 
+	#booktrip{
+				font-size:120;
+				font-family: Verdana;
+				color: white;
+				background-color: #0d8ef2;
+				border: 1px solid white;
+				border-radius: 5px;
+	}
+	
+	#submit:hover{
+							background-position: 0px   -80px;}
+	
+	#list{background-color:#0d8ef2;}
+	
+	#hiker{
+				float: right;}
+	
+	#biker{
+				text-align:center;
+				margin: 0px auto;}
+								
+	#submit:hover{
+		color:green;
+	}
+	
+	p:hover{
+		color:pink;}							
+	
+	body {
+				background-image: url("../images/Lake-Peak.jpeg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size:cover;
+				color: black;
+				padding: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+	
+								
+								
+								
+								
+								
